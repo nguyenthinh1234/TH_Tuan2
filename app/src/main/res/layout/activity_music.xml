@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.motion.widget.MotionLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#C8EDFE"
+    android:orientation="vertical"
+    app:layoutDescription="@xml/activity_music_scene"
+    tools:context=".MusicActivity">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/baby"
+        tools:layout_editor_absoluteX="121dp"
+        tools:layout_editor_absoluteY="83dp" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/video"
+        tools:layout_editor_absoluteX="130dp"
+        tools:layout_editor_absoluteY="514dp" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/camera"
+        tools:layout_editor_absoluteX="21dp"
+        tools:layout_editor_absoluteY="310dp" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/mic"
+        tools:layout_editor_absoluteX="133dp"
+        tools:layout_editor_absoluteY="317dp" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/full"
+        tools:ignore="SpeakableTextPresentCheck"
+        tools:layout_editor_absoluteX="260dp"
+        tools:layout_editor_absoluteY="333dp" />
+</androidx.constraintlayout.motion.widget.MotionLayout>
